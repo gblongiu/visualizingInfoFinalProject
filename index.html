@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabriel Long's Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./scatterplot.js" defer></script>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+            padding: 0;
+        }
+
+        svg {
+            position: absolute;
+            top: 80%;
+            left: 60%;
+            transform: translate(-50%, -50%);
+        }
+
+        body {
+            font-family: Arial;
+            font-size: 18px;}
+
+        a {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+<svg width="800" height="600"></svg>
+<div id="tooltip"></div>
+<a href="documentation.html">Documentation</a>
+</body>
+</html>
